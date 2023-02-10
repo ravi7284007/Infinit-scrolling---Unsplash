@@ -30,6 +30,12 @@ img {
   object-fit: cover;
 }
 
+.loader img {
+  height: unset;
+  box-shadow: unset;
+
+}
+
 .loader {
   position: fixed;
   top: 0;
@@ -40,7 +46,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  display: none;
 }
 
 .imageContainer {
